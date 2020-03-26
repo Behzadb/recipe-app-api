@@ -4,7 +4,6 @@ services:
   app:
     build:
       context: .
-    # image: tdd/behzad:v1
     ports:
       - 8000:8000
     volumes:
